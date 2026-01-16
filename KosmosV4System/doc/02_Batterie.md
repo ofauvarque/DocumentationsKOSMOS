@@ -8,7 +8,10 @@
 
 ## Réalisation de la batterie
 
-On suivra le [tutoriel dédié](../../CommonElements/doc/01_batterie.md) à la fabrication de batterie. Il faudra néanmoins 
+On suivra le [tutoriel dédié](../../CommonElements/doc/01_batterie.md) à la fabrication de batterie. Il faudra néanmoins opérer deux modifications mineures :
+
+- ne pas souder le connecteur XT60 sur les cables masse et 12V sortant du BMS
+- souder ces deux cables avec un angle de 45 degrés comme la photo qui suit :
 
 <img src="pictures/V4_Batterie/IMG_0926.JPG" height=400> 
 
