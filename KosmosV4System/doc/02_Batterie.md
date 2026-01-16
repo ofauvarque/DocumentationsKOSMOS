@@ -6,6 +6,13 @@
 
 <img src="pictures/V4_Batterie/CablageBatterie.PNG" height=400> 
 
+## Réalisation de la batterie
+
+On suivra le [tutoriel dédié](../../CommonElements/doc/01_batterie.md) à la fabrication de batterie. Il faudra néanmoins 
+
+<img src="pictures/V4_Batterie/IMG_0926.JPG" height=400> 
+
+
 ## Assemblage
 
 ### Flanges
