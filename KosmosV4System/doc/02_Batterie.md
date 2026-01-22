@@ -4,7 +4,6 @@
 
 <img src="pictures/V4_Batterie/VueGenerale.PNG" height=400>
 
-<img src="pictures/V4_Batterie/CablageBatterie.PNG" height=400> 
 
 ## Réalisation de la batterie
 
@@ -15,16 +14,22 @@ On suivra le [tutoriel dédié](../../CommonElements/doc/01_batterie.md) à la f
 
 <img src="pictures/V4_Batterie/IMG_0926.JPG" height=400> 
 
+- Ces cables doivent mesurer une dizaine de centimètres. On leur sertira des ferrules à leur extrémité.
 
 ## Assemblage
 
 ### Flanges
 
 - Assembler la "flange" avec le "end cap" en alumium (sans trous) en suivant le [tutoriel dédié](../../CommonElements/doc/02_flanges.md).  
-- Fixer les deux connecteurs COB-1130, le connecteur COB-1140 et la purge sur le "end cap" 4 trous sur suivant le [tutoriel dédié](../../CommonElements/doc/03_etancheitedivers.md).
+- Fixer les deux connecteurs COB-1130, le connecteur COB-1140 et la purge sur le "end cap" 4 trous sur suivant le [tutoriel dédié](../../CommonElements/doc/03_etancheitedivers.md). On respectera l'emplacement de chaque élément de la figure suivante.
+
+<img src="pictures/V4_Batterie/TapeArriere.PNG" height=400> 
+
 
 ### Connectiques 5V
 AVANT DE REALISER LES ETAPES SUIVANTES, S'ASSURER QUE LES CONNECTEURS SONT BIEN PASSES PAR LES TROUS DU "END CAP".
+
+<img src="pictures/V4_Batterie/CablageBatterie.PNG" height=400> 
 
 - Couper les fils jaunes des COB-1130 et le fil blanc du COB-1140 à 6 cm puis les dénuder sur 1 cm.
 - Sertir ces trois fils dans une cosse BV2. (On pourra tresser entre eux les deux fils qui rentreront du même côté de la cosse).
@@ -32,19 +37,19 @@ AVANT DE REALISER LES ETAPES SUIVANTES, S'ASSURER QUE LES CONNECTEURS SONT BIEN 
 
 ### Connectiques masse
 - Couper les deux fils noir des COB-1130 à 6 cm et les dénuder sur 1 cm.
-- Conserver une chute de ces fils et la dénuder des deux côtés sur 1 cm.
+- Conserver une chute de ces fils de 10 cm et la dénuder des deux côtés sur 1 cm.
 - Sertir ces trois fils noirs dans une cosse BV2. (On pourra tresser entre eux les deux fils qui rentreront du même côté de la cosse).
 - Plaquer la cosse et les fils au plus proche du "end cap".
-- Dénuder l'extrémité restante du fil noir sur 1 cm et lui sertir une ferrule en prenant soin de choisir le diamètre adapté.
-- A l'aide d'une pince coupante, raccourcir la ferule de 1 mm.
+- Sur l'extrémité restante, sertir une ferrule en prenant soin de choisir le diamètre adapté.
+- A l'aide d'une pince coupante, raccourcir cette ferule de 1 mm.
 
 ### Connectiques 12V
 
 - Couper les fils rouges des COB-1130 et le fil vert du COB-1140 à 6 cm puis les dénuder sur 1 cm.
-- Conserver une chute de fil rouge et la dénuder des deux côtés sur 1 cm.
+- Conserver une chute de fil rouge de 10 cm et la dénuder des deux côtés sur 1 cm.
 - Sertir les trois fils rouges et le fil vert dans une cosse BV2. (Deux de chaque côté qu'on tressera ensemble).
 - Plaquer la cosse et les fils au plus proche du "end cap".
-- Dénuder l'extrémité restante du fil rouge sur 1 cm et lui sertir une ferrule en prenant soin de choisir le diamètre adapté.
+- Sur l'extrémité restante du fil rouge, sertir une ferrule en prenant soin de choisir le diamètre adapté.
 - A l'aide d'une pince coupante, raccourcir la ferule de 1 mm.
 
 ### Deux dernièrs cables venant du COB-1140
@@ -53,6 +58,12 @@ AVANT DE REALISER LES ETAPES SUIVANTES, S'ASSURER QUE LES CONNECTEURS SONT BIEN 
 - Sertir une férule sur chacun d'entre eux.
 - A l'aide d'une pince coupante, raccourcir la ferule du cable noir de 1 mm.
 
+### Un dernier cable noir entre la batterie et le convertisseur (via un wago)
+
+- Dénuder sur 1 centimètre les deux côtés d'un fil noir de 10 cm.
+
+- Sertir des ferrules à chacune des extrémités.
+  
 ### Imprimer la structure interne
 
 <img src="pictures/V4_Batterie/StructureMeca.PNG" height=400> 
