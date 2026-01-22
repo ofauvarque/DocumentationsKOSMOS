@@ -50,10 +50,9 @@ A l'issue de cette opération, on obtient un capteur Picam HQ sans filtre IR (qu
 
 - Insérer la clé USB dans un des deux ports USB 3.0
 
-## Réalisation de la carte électronique
+# Réalisation de la carte électronique
 
 <img src="pictures/V4_Video/IMG_1374.JPG" height=400> 
-
 
 - Souder 4 broches sur le capteur GPS (pattes courtes du côté de la pile). La pin carrée PPS est inutile.   
 
@@ -63,7 +62,21 @@ A l'issue de cette opération, on obtient un capteur Picam HQ sans filtre IR (qu
 
 <img src="pictures/V4_Video/IMG_1373.JPG" height=200>
 
-<img src="pictures/V4_Video/IMG_1239.JPG" height=200>
+## Fixation de l'antenne GPS
+
+- A l'aide d'un pistolet à colle fixer l'antenne comme indiqué sur la photo suivante.
+- La brancher ensuite sur le capteur GPS présent sur la carte électronique.
+
+<img src="pictures/V4_Video/IMG_1339.JPG" height=300>
+
+## Réalisation du connecteur Capteur de Luminosité
+
+- Couper 6 cm de fils rouge, noir, blanc et vert et sertir des connecteurs JST de chaque côté.
+  
+- Les insérer dans des connecteurs 4 pin en respectant l'ordre de couleurs de la photo suivante.
+
+<img src="pictures/V4_Video/IMG_1341.JPG" height=300>
+
 
 # Réalisation du caisson étanche
 
@@ -76,12 +89,12 @@ A l'issue de cette opération, on obtient un capteur Picam HQ sans filtre IR (qu
 ### Cable d'alimentation
 
 - Avec une pince coupante, raccourcir le cable COB-1231 pour qu'il mesure 40 cm. Garder les fils noir, jaune et rouge. 
-- Avec un cutter, enlever 10 cm de gaine noire. Attention à ne pas abimer les fils à l'intérieur. (Si c'était le cas glisser de la gaine thermoretractable au niveau de la coupure.)
+- Avec un cutter, enlever 15 cm de gaine noire. Attention à ne pas abimer les fils à l'intérieur. (Si c'était le cas glisser de la gaine thermoretractable au niveau de la coupure.)
 - Couper le fil rouge à ras de la gaine pour ne conserver que le noir et le jaune. (On rappelle la convention : 5V jaune, masse noir, 12V rouge.)
 - Dénuder les fils jaune et noir sur 7 mm.
 - Y sertir des cosses dont on a vérifié qu'elles avaient le diamètre optimal.
 
-<img src="pictures/V4_Video/FlexibleAlimentation.jpeg" height=300> <img src="pictures/V4_Video/IMG_1495.jpg" height=300>
+<img src="pictures/V4_Video/FlexibleAlimentation.jpeg" height=300>
 
 - Suivre ensuite le tutoriel dont le lien est ci-dessous pour installer le presse étoupe
 
@@ -89,21 +102,19 @@ https://bluerobotics.com/learn/wetlink-penetrator-installation-guide/
 
 https://www.youtube.com/watch?v=vigY82tsfOI&t=2s&ab_channel=BlueRobotics
 
-<img src="pictures/V4_Video/IMG_1769.jpg" height=200> <img src="pictures/V4_Video/IMG_1770.jpg" height=200>
-
 ### Assemblage de la tape connectique
 
 <img src="pictures/V4_Video/TapeArriere.PNG" height=400>
 
 - Graisser les joints de chaque éléments sur la bouchon 7 trous
-- Serrer les éléments M10 sur le bouchon en suivant l'ordre indiqué sur la figure.
+- Serrer les éléments M10 sur le bouchon en respectant les positions de chaque élement. ATTENTION à bien respecter la position des ergots sur le bouchon. 
     
 <img src="pictures/V4_Video/IMG44.jpg" height=400> <img src="pictures/V4_Video/IMG19.jpg" height=400>
 
-### Connectiques 
+### Connectiques 4 pin & 8 pin
 
 - Sur le connecteur 4 pin Power Bulkhead COB-1140, raccourcir les cables pour qu'ils mesurent 10 cm.
-- Dénuder les fils sur 5 mm puis y sertir des cosses JST. Vérifier qu'elles tiennent fermement.
+- Dénuder les fils sur 3 mm puis y sertir des cosses JST. Vérifier qu'elles tiennent fermement.
 
 <img src="pictures/V4_Video/1.jpeg" height=200> 
  
@@ -112,48 +123,43 @@ https://www.youtube.com/watch?v=vigY82tsfOI&t=2s&ab_channel=BlueRobotics
 - Re-écraser les mords à la pince plate pour que les cosses tiennent fermement. (Les fils du capteur TP sont un peu fins pour les cosses.) 
 - Insérer les cosses dans les connecteurs JST en suivant le plan de cablage.
 
-<img src="pictures/V4_Video/IMG_E1626.JPG" height=300> <img src="pictures/V4_Video/IMG_E1624.JPG" height=300>
+<img src="pictures/V4_Video/IMG_E1626.JPG" height=300> <img src="pictures/V4_Video/IMG_E1624.JPG" height=300> <img src="pictures/V4_Video/IMG_E1625.JPG" height=300>
 
 - Sur le connecteur 8 pin Power Bulkhead COB-1180, raccourcir les cables pour qu'ils mesurent 7cm et sertir un connecteur ethernet en respectant le code couleur suivant.
 
 <img src="pictures/V4_Video/Ethernet.PNG" height=300>  <img src="pictures/V4_Video/IMG_1356.JPG" height=300>
 
-## Réalisation du cable de récupération des données
-
-- Sur le connecteur COB-1281, ôter le joint grâce à l'outil O-ring Pick. (Ce cable ne servant qu'à terre, le joint est inutile. L'enlever permettra d'insérer plus facilement le connecteur sur le caisson)
-- Sertir ensuite un connecteur ethernet en respectant l'ordre de la figure qui suit.
-
-<img src="pictures/V4_Video/Ethernet.PNG" height=300> <img src="pictures/V4_Video/RecupDonneesCable.PNG" height=300> <img src="pictures/V4_Video/IMG_1357.JPG" height=300>
-
 # Assemblage final
 
-
-### Fixation de l'antenne GPS
-
-- A l'aide d'un pistolet à colle fixer l'antenne comme indiqué sur la photo suivante.
-- La brancher ensuite sur le capteur GPS présent sur la carte électronique.
-
-<img src="pictures/V4_Video/IMG_1339.JPG" height=300>
-
-### Connexion du capteur de luminosité
-
-- Couper 6 cm de fils rouge, noir, blanc et vert et sertir des connecteurs JST de chaque côté.
-  
-- Les insérer dans des connecteurs 4 pin en respectant l'ordre de couleurs de la photo suivante.
-
-<img src="pictures/V4_Video/IMG_1341.JPG" height=300>
-
-- Brancher ce connecteur entre la carte électronique et le capteur de luminosité.
-
-### Fixation de la tape arrière
+## Fixation de la tape arrière
 
 - Fixer la tape arrière sur la structure mécanique à l'aide de 4 boulons (diamètre 3 mm, longueur 10 mm). On placera le détrompeur de la tape du côté des ports USB 2.0 
 
 <img src="pictures/V4_Video/IMG_1353.JPG" height=400>
 
-### Alimentation de la carte en 5V
+## Fixation du bouchon 7 trous sur la tape arrière
 
-### Connexion du capteur TP, de la commande moteur et du port ethernet
+- Graisser le joint de la gorge de la tape arrière et l'y placer.
 
-### Fixation du bouchon sur la tape arrière
+- Présenter le bouchon 7 trous devant la tape arrière, de sorte à ce que la purge soit alignée avec le détrompeur de la tape.
 
+- Connecter l'ethernet à la Raspberry et faire passer tous les autres cables vers l'intérieur du caisson.
+
+- Fixer le bouchon sur la tape à l'aide des 6 vis (on les serrera en étoile) en s'assurant que la purge soit alignée avec le détrompeur de la tape.  
+
+## Branchement de la carte électronique
+
+- Insérer tout d'abord la carte électronique sur la Raspberry Pi.
+
+- Connecter le capteur TP et le contrôle moteur sur la carte.
+
+- Insérer les cosses de l'alimentation 5V dans le bornier et les souquer à l'aide d'un tournevis.
+
+- Relier enfin le capteur de luminosité et la carte électronique à l'aide du connecteur dédié.
+
+# Réalisation du cable de récupération des données
+
+- Sur le connecteur COB-1281, ôter le joint grâce à l'outil O-ring Pick. (Ce cable ne servant qu'à terre, le joint est inutile. L'enlever permettra d'insérer plus facilement le connecteur sur le caisson)
+- Sertir ensuite un connecteur ethernet en respectant l'ordre de la figure qui suit.
+
+<img src="pictures/V4_Video/Ethernet.PNG" height=300> <img src="pictures/V4_Video/RecupDonneesCable.PNG" height=300> <img src="pictures/V4_Video/IMG_1357.JPG" height=300>
