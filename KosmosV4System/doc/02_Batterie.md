@@ -1,11 +1,10 @@
-# Caisson batterie
-
-## Vues générales
+# Vue générale du caisson batterie
 
 <img src="pictures/V4_Batterie/VueGenerale.PNG" height=400>
 
+<img src="pictures/V4_Batterie/CablageBatterie.PNG" height=400> 
 
-## Réalisation de la batterie
+# Réalisation de la batterie
 
 On suivra le [tutoriel dédié](../../CommonElements/doc/01_batterie.md) à la fabrication de batterie. Il faudra néanmoins opérer deux modifications mineures :
 
@@ -16,20 +15,27 @@ On suivra le [tutoriel dédié](../../CommonElements/doc/01_batterie.md) à la f
 
 - Ces cables doivent mesurer une dizaine de centimètres. On leur sertira des ferrules à leur extrémité.
 
-## Assemblage
+ATTENTION, LES CABLES PROVENANT DE LA BATTERIE NE DOIVENT JAMAIS SE TOUCHER.
 
-### Flanges
+# Assemblage des tapes
 
-- Assembler la "flange" avec le "end cap" en alumium (sans trous) en suivant le [tutoriel dédié](../../CommonElements/doc/02_flanges.md).  
-- Fixer les deux connecteurs COB-1130, le connecteur COB-1140 et la purge sur le "end cap" 4 trous sur suivant le [tutoriel dédié](../../CommonElements/doc/03_etancheitedivers.md). On respectera l'emplacement de chaque élément de la figure suivante.
+## Tape avant 
+
+- Assembler le "end cap" sans trou avec son "flange" en suivant le [tutoriel dédié](../../CommonElements/doc/02_flanges.md).
+
+<img src="pictures/V4_Batterie/IMG_1773.jpg" height=200> <img src="pictures/V4_Batterie/IMG_1772.jpg" height=200> 
+ <img src="pictures/V4_Batterie/IMG_1774.jpg" height=200> 
+ 
+## Tape arrière
+
+### Assemblage du bouchon 4 trous
 
 <img src="pictures/V4_Batterie/TapeArriere.PNG" height=400> 
 
+- Fixer les deux connecteurs COB-1130, le connecteur COB-1140 et la purge sur le "end cap" 4 trous sur suivant le [tutoriel dédié](../../CommonElements/doc/03_etancheitedivers.md). On respectera l'emplacement de chaque élément de la figure suivante.
 
 ### Connectiques 5V
-AVANT DE REALISER LES ETAPES SUIVANTES, S'ASSURER QUE LES CONNECTEURS SONT BIEN PASSES PAR LES TROUS DU "END CAP".
-
-<img src="pictures/V4_Batterie/CablageBatterie.PNG" height=400> 
+AVANT DE REALISER LES ETAPES SUIVANTES, S'ASSURER QUE LES CONNECTEURS SONT BIEN PASSES PAR LES TROUS DU BOUCHON.
 
 - Couper les fils jaunes des COB-1130 et le fil blanc du COB-1140 à 6 cm puis les dénuder sur 1 cm.
 - Sertir ces trois fils dans une cosse BV2. (On pourra tresser entre eux les deux fils qui rentreront du même côté de la cosse).
@@ -63,8 +69,13 @@ AVANT DE REALISER LES ETAPES SUIVANTES, S'ASSURER QUE LES CONNECTEURS SONT BIEN 
 - Dénuder sur 1 centimètre les deux côtés d'un fil noir de 10 cm.
 
 - Sertir des ferrules à chacune des extrémités.
+
+### Assemblage 
+
+- Assembler le "end cap" 4 trous avec son "flange" en suivant le [tutoriel dédié](../../CommonElements/doc/02_flanges.md). Faire en sorte que la vis de purge soit le plus possible aligné avec le détrompeur de la tape.
+
   
-### Imprimer la structure interne
+# Imprimer la structure interne
 
 <img src="pictures/V4_Batterie/StructureMeca.PNG" height=400> 
 
@@ -73,24 +84,23 @@ AVANT DE REALISER LES ETAPES SUIVANTES, S'ASSURER QUE LES CONNECTEURS SONT BIEN 
 - Préparer les pas de vis des trous de fixation en vissant un boulon en métal de diamètre 2.5 mm dans les quatre trous qui servent à maintenir le convertisseur.
 - Installer le convertisseur à sa place et visser les quatre boulons de diamètre 2.5 mm et de longueur 8 mm. Ces boulons ne doivent pas dépasser du côté de la batterie. Rajouter au pire des rondelles (ou des écrous).
 
-### Installation de la batterie
+### Connexion des connecteurs avec le convertisseur
 
-ATTENTION, LES CABLES PROVENANT DE LA BATTERIE NE DOIVENT JAMAIS SE TOUCHER.
-- Faire passer les fils de la batterie sous le convertisseur.
-- Installer la batterie dans son compartiment puis la fixer avec un rilsan. L'élément de serrage doit être situé sur le dessus de la batterie.
-- Couper le cable rouge de la batterie à 10 cm et le sertir avec une ferule.
-- Couper le cable noir de la batterie à 10 cm et le sertir avec une ferule. On la raccourira de 1 mm à l'aide d'une pince coupante.
-- Fixer cette ferule (du cable noir) dans la borne - du 12 V du convertisseur.
-
-###
-
-- Assembler le "end cap" 4 trous avec son "flange" en suivant le [tutoriel dédié](../../CommonElements/doc/02_flanges.md).
+- Présenter la structure mécanique en face de la tape de sorte à ce que le haut du convertisseur soit aligné avec le détrompeur de la tape.
 - Fixer la ferule du cable noir "masse" sur la borne - du 5 V du convertisseur.
 - Fixer la ferule rouge 12 V sur la borne + du 12 V du convertisseur.
 - Fixer la ferule du cable noir "5V" (provenant du COB-1140) sur la borne + du 5V du convertisseur.
 - Dégager le cable rouge 12V. Il sera raccordé en tout dernier lieu au 12 V rouge de la batterie avec un Wago ou un domino.  
 - Fixer l'ensembe "end cap + flange" sur la structure interne imprimée en 3D grâce à trois boulons 3 mm.
-- Connecter les deux cables 12V grâce à un Wago ou un domino et tasser ces éléments sur un côté du convertisseur.
+- Fixer le dernier cable disponible sur la borne - du 12 V du convertisseur. Dégager l'autre extrémité de ce cable.  Il sera raccordé à la masse noire de la batterie avec un Wago ou un domino. 
+
+### Installation de la batterie
+
+ATTENTION, LES CABLES PROVENANT DE LA BATTERIE NE DOIVENT JAMAIS SE TOUCHER.
+- Faire passer les fils de la batterie au dessur du convertisseur.
+- Installer la batterie dans son compartiment puis la fixer avec un rilsan. L'élément de serrage doit être situé sur le dessus de la batterie.
+- Connecter les deux cables masse grâce à un Wago ou un domino et tasser ces éléments sur un côté du convertisseur.
+- De l'autre côté, connecter les deux cables 12V grâce à un Wago ou un domino et les tasser.
 
 ## Shunt de fonctionnement
 
@@ -114,7 +124,6 @@ ATTENTION, LES CABLES PROVENANT DE LA BATTERIE NE DOIVENT JAMAIS SE TOUCHER.
 - Glisser enfin un gaine thermo-rétractable sur laquelle on aura écrit "SHUNT CHARGE" sur la gaine noire.
 
 <img src="pictures/V4_Batterie/IMG_1350.JPG" height=200> <img src="pictures/V4_Batterie/IMG_1351.JPG" height=200>
-
 
 ### Cable de recharge (partie 1)
 
