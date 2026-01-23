@@ -91,10 +91,9 @@ A l'issue de cette opération, on obtient un capteur Picam HQ sans filtre IR (qu
 - Avec une pince coupante, raccourcir le cable COB-1231 pour qu'il mesure 40 cm. Garder les fils noir, jaune et rouge. 
 - Avec l'outil Knipex, enlever 20 cm de gaine noire. Attention à ne pas abimer les fils à l'intérieur. (Si c'était le cas glisser de la gaine thermoretractable au niveau de la coupure.)
 - Couper le fil rouge à ras de la gaine pour ne conserver que le noir et le jaune. (On rappelle la convention : 5V jaune, masse noir, 12V rouge.)
-- Dénuder les fils jaune et noir sur 7 mm.
-- Y sertir des cosses dont on a vérifié qu'elles avaient le diamètre optimal.
 
-<img src="pictures/V4_Video/FlexibleAlimentation.jpeg" height=300>
+
+<img src="pictures/V4_Video/IMG_1416.JPG" height=300>
 
 - Suivre ensuite le tutoriel dont le lien est ci-dessous pour installer le presse étoupe
 
@@ -102,14 +101,21 @@ https://bluerobotics.com/learn/wetlink-penetrator-installation-guide/
 
 https://www.youtube.com/watch?v=vigY82tsfOI&t=2s&ab_channel=BlueRobotics
 
+<img src="pictures/V4_Video/IMG_1417.JPG" height=300>
+
+- Dénuder les fils jaune et noir sur 7 mm.
+- Y sertir des cosses dont on a vérifié qu'elles avaient le diamètre optimal. Raccourcir les ferrules de 2 mm.
+
+<img src="pictures/V4_Video/IMG_1421.JPG" height=300>
+
 ### Assemblage de la tape connectique
 
 <img src="pictures/V4_Video/TapeArriere.PNG" height=400>
 
 - Graisser les joints de chaque éléments sur la bouchon 7 trous
-- Serrer les éléments M10 sur le bouchon en respectant les positions de chaque élement. ATTENTION à bien respecter la position des ergots sur le bouchon. 
-    
-<img src="pictures/V4_Video/IMG44.jpg" height=400> <img src="pictures/V4_Video/IMG19.jpg" height=400>
+- Serrer les éléments M10 sur le bouchon en respectant les positions de chaque élement. ATTENTION à bien respecter la position des ergots sur le bouchon. On suivra l'ordre d'assemblage donné par les photos qui suivent.
+
+<img src="pictures/V4_Video/IMG_1412.JPG" height=250> <img src="pictures/V4_Video/IMG_1413.JPG" height=250> <img src="pictures/V4_Video/IMG_1414.JPG" height=250> <img src="pictures/V4_Video/IMG_1415.JPG" height=250> <img src="pictures/V4_Video/IMG_1418.JPG" height=250> <img src="pictures/V4_Video/IMG_1419.JPG" height=250> <img src="pictures/V4_Video/IMG_1420.JPG" height=250>
 
 ### Connectiques 4 pin & 8 pin
 
@@ -121,9 +127,9 @@ https://www.youtube.com/watch?v=vigY82tsfOI&t=2s&ab_channel=BlueRobotics
 - De la même façon, couper les cables du capteur Température Pression pour qu'ils mesurent 10 cm.
 - Dénuder les fils sur 3 mm puis y sertir les cosses.
 - Re-écraser les mords à la pince plate pour que les cosses tiennent fermement. (Les fils du capteur TP sont un peu fins pour les cosses.) 
-- Insérer les cosses dans les connecteurs JST en suivant le plan de cablage.
+- Insérer les cosses dans les connecteurs JST en respectant le code couleur des photos suivantes. 
 
-<img src="pictures/V4_Video/IMG_E1626.JPG" height=300> <img src="pictures/V4_Video/IMG_E1624.JPG" height=300> <img src="pictures/V4_Video/IMG_E1625.JPG" height=300>
+<img src="pictures/V4_Video/IMG_E1624.JPG" height=300> <img src="pictures/V4_Video/IMG_E1625.JPG" height=300>
 
 - Sur le connecteur 8 pin Power Bulkhead COB-1180, raccourcir les cables pour qu'ils mesurent 7cm et sertir un connecteur ethernet en respectant le code couleur suivant.
 
@@ -135,7 +141,7 @@ https://www.youtube.com/watch?v=vigY82tsfOI&t=2s&ab_channel=BlueRobotics
 
 - Fixer la tape arrière sur la structure mécanique à l'aide de 4 boulons (diamètre 3 mm, longueur 10 mm). On placera le détrompeur de la tape du côté des ports USB 2.0 
 
-<img src="pictures/V4_Video/IMG_1353.JPG" height=400>
+<img src="pictures/V4_Video/IMG_1423.JPG" height=400>
 
 ## Fixation du bouchon 7 trous sur la tape arrière
 
@@ -146,6 +152,9 @@ https://www.youtube.com/watch?v=vigY82tsfOI&t=2s&ab_channel=BlueRobotics
 - Connecter l'ethernet à la Raspberry et faire passer tous les autres cables vers l'intérieur du caisson.
 
 - Fixer le bouchon sur la tape à l'aide des 6 vis (on les serrera en étoile) en s'assurant que la purge soit alignée avec le détrompeur de la tape.  
+
+<img src="pictures/V4_Video/IMG_1424.JPG" height=400>
+
 
 ## Branchement de la carte électronique
 
