@@ -62,6 +62,10 @@ A l'issue de cette opération, on obtient un capteur Picam HQ sans filtre IR (qu
 
 <img src="pictures/V4_Video/IMG_1373.JPG" height=200>
 
+## LEDs et résistances
+
+<img src="pictures/V4_Video/schemaLED.png" height=200>
+
 ## Fixation de l'antenne GPS
 
 - A l'aide d'un pistolet à colle fixer l'antenne comme indiqué sur la photo suivante.
@@ -72,7 +76,6 @@ A l'issue de cette opération, on obtient un capteur Picam HQ sans filtre IR (qu
 ## Réalisation du connecteur Capteur de Luminosité
 
 - Couper 6 cm de fils rouge, noir, blanc et vert et sertir des connecteurs JST de chaque côté.
-  
 - Les insérer dans des connecteurs 4 pin en respectant l'ordre de couleurs de la photo suivante.
 
 <img src="pictures/V4_Video/IMG_1341.JPG" height=300>
@@ -146,11 +149,8 @@ https://www.youtube.com/watch?v=vigY82tsfOI&t=2s&ab_channel=BlueRobotics
 ## Fixation du bouchon 7 trous sur la tape arrière
 
 - Graisser le joint de la gorge de la tape arrière et l'y placer.
-
 - Présenter le bouchon 7 trous devant la tape arrière, de sorte à ce que la purge soit alignée avec le détrompeur de la tape.
-
 - Connecter l'ethernet à la Raspberry et faire passer tous les autres cables vers l'intérieur du caisson.
-
 - Fixer le bouchon sur la tape à l'aide des 6 vis (on les serrera en étoile) en s'assurant que la purge soit alignée avec le détrompeur de la tape.  
 
 <img src="pictures/V4_Video/IMG_1424.JPG" height=400>
@@ -159,11 +159,8 @@ https://www.youtube.com/watch?v=vigY82tsfOI&t=2s&ab_channel=BlueRobotics
 ## Branchement de la carte électronique
 
 - Insérer tout d'abord la carte électronique sur la Raspberry Pi.
-
 - Connecter le capteur TP et le contrôle moteur sur la carte.
-
 - Insérer les cosses de l'alimentation 5V dans le bornier et les souquer à l'aide d'un tournevis.
-
 - Relier enfin le capteur de luminosité et la carte électronique à l'aide du connecteur dédié.
 
 # Réalisation du cable de récupération des données
