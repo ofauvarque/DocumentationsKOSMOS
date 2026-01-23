@@ -39,13 +39,13 @@ AVANT DE REALISER LES ETAPES SUIVANTES, S'ASSURER QUE LES CONNECTEURS SONT BIEN 
 
 - Couper les fils jaunes des COB-1130 et le fil blanc du COB-1140 à 6 cm puis les dénuder sur 1 cm.
 - Souquer ces trois fils dans un domino. (On pourra tresser entre eux les deux fils qui rentreront du même côté du domino).
-- Plaquer la cosse et les fils au plus proche du "end cap".
+- Plaquer le domino et les fils au plus proche du "end cap".
 
 ### Connectiques masse
 - Couper les deux fils noir des COB-1130 à 6 cm et les dénuder sur 1 cm.
 - Conserver une chute de ces fils de 10 cm et la dénuder des deux côtés sur 1 cm.
 - Souquer ces trois fils noirs dans un domino. (On pourra tresser entre eux les deux fils qui rentreront du même côté du domino).
-- Plaquer la cosse et les fils au plus proche du "end cap".
+- Plaquer le domino et les fils au plus proche du "end cap".
 - Sur l'extrémité restante, sertir une ferrule en prenant soin de choisir le diamètre adapté.
 - A l'aide d'une pince coupante, raccourcir cette ferule de 1 mm.
 
@@ -54,7 +54,7 @@ AVANT DE REALISER LES ETAPES SUIVANTES, S'ASSURER QUE LES CONNECTEURS SONT BIEN 
 - Couper les fils rouges des COB-1130 et le fil vert du COB-1140 à 6 cm puis les dénuder sur 1 cm.
 - Conserver une chute de fil rouge de 10 cm et la dénuder des deux côtés sur 1 cm.
 - Souquer les trois fils rouges et le fil vert dans un domino. (Deux de chaque côté qu'on tressera ensemble).
-- Plaquer la cosse et les fils au plus proche du "end cap".
+- Plaquer le domino et les fils au plus proche du "end cap".
 - Sur l'extrémité restante du fil rouge, sertir une ferrule en prenant soin de choisir le diamètre adapté.
 - A l'aide d'une pince coupante, raccourcir la ferule de 1 mm.
 
@@ -67,7 +67,6 @@ AVANT DE REALISER LES ETAPES SUIVANTES, S'ASSURER QUE LES CONNECTEURS SONT BIEN 
 ### Un dernier cable noir entre la batterie et le convertisseur (via un wago)
 
 - Dénuder sur 1 centimètre les deux côtés d'un fil noir de 10 cm.
-
 - Sertir des ferrules à chacune des extrémités.
 
 ### Assemblage 
